@@ -16,8 +16,7 @@ Ferramenta simples para criar branches em múltiplos projetos Git de forma rápi
 
 ## Configuração
 
-- Defina uma env var chamada `PROJECTS` com os nomes dos diretórios dos seus projetos separados por vírgula:
-```$env:PROJECTS = "projeto1,projeto2,projeto3"```
+- Defina uma env var chamada `PROJECTS` com os nomes dos diretórios dos seus projetos separados por vírgula, como: ```COMANDO_DO_OS_ = "projeto1,projeto2,projeto3" ```
 
 - O script cria um arquivo `.cli-config.json` para salvar a branch principal usada.
 
